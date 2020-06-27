@@ -1,10 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import MyCarousel from "../src/MyCarousel/MyCarousel";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      <MyCarousel />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
